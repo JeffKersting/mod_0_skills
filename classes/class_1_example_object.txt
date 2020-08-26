@@ -1,0 +1,10 @@
+Server: Rachel
+
+let name = "Rachel";
+let orders = [];
+let atWork = true;
+let onBreak = false;
+let tips = 0;
+
+takeOrder(orders.push("bacon and eggs"));
+  *-this will modify the orders array to orders = ["bacon and eggs"]*
