@@ -1,0 +1,13 @@
+Menu: Jeff's
+
+Attributes:
+let dishes = ["bacon and eggs", "sushi", "salsa"];
+let price = 10.99;
+let happyHour = false;
+let breakfastHours = "7:30-11:30";
+
+Methods:
+addNewDish(dishes.push("Burrito")) *this will add burrito to the dishes array*
+changePrice(price = 9.99) *this will change the float value of price*
+applyHappyHour(happyHour = true) *this will change the happy hour bool to true*
+changeBreakfastHours(BreakfastHours = "7:00-11:00") *this will modify the breakfast hours string*
