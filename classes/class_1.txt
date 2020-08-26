@@ -1,0 +1,15 @@
+Class: Server
+
+Attributes:
+name(string)
+orders(array)
+atWork(bool)
+onBreak(bool)
+tips(float)
+
+Methods:
+punchIn(atWork = true) *modifies the atWork bool to be true*
+takeOrder(array.push("order")) *modifies the orders array by adding an order*
+takeBreak(onBreak = true) *modifies on break bool to true*
+collectTips(tips = tips + X) *modifies the tip float to create new total*
+endShift(atWork = false) *modifies the atWork bool to be false*
