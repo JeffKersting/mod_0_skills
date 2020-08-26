@@ -8,3 +8,7 @@ let tips = 0;
 
 takeOrder(orders.push("bacon and eggs"));
   *-this will modify the orders array to orders = ["bacon and eggs"]*
+takeBreak(onBreak = true) *this will modify the onBreak value to true*
+endShift(atWork = false) *this will modify the atWork value to false*
+collectTips(tips = tips + Y) *this will add Y amount to tip total*
+punchIn(atWork = true) *this will change atWork bool to true (if false)*
