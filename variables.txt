@@ -1,0 +1,9 @@
+let food = "sushi";
+let is_delicious = true;
+let food = "burrito";
+let num2 = 10;
+let num7 = 15;
+let quotient = (num7/num2);
+let songs = ["Walk the line", "Smells like teen spirit"];
+songs.shift();
+food.str.length;
