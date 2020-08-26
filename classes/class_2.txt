@@ -7,7 +7,7 @@ happyHour(bool);
 breakfastHours(string);
 
 Methods:
-addNewDish(dishes.push("new dish")) *this will modify the dishes array to add a dish*
-changePrice(price = y) *this will modify the price attribute*
-applyHappyHour(happyHour = true) *this will modify the happyHour bool to true*
-changeBreakfastHours(breakfastHours = "new hours") *this will modify the breakfast hours on the menu*
+addNewDish(dishes.push("new dish")) (this will modify the dishes array to add a dish)
+changePrice(price = y) (this will modify the price attribute)
+applyHappyHour(happyHour = true) (this will modify the happyHour bool to true)
+changeBreakfastHours(breakfastHours = "new hours") (this will modify the breakfast hours on the menu)
