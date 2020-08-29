@@ -1,14 +1,13 @@
 Server: Rachel
 
-let name = "Rachel";
-let orders = [];
-let atWork = true;
-let onBreak = false;
-let tips = 0;
+let name = "Rachel"
+let orders = []
+let atWork = true
+let onBreak = false
+let tips = 0
 
-takeOrder(orders.push("bacon and eggs"));
-  (this will modify the orders array to orders = ["bacon and eggs"])
-takeBreak(onBreak = true) (this will modify the onBreak value to true)
-endShift(atWork = false) (this will modify the atWork value to false)
-collectTips(tips = tips + Y) (this will add Y amount to tip total)
-punchIn(atWork = true) (this will change atWork bool to true (if false))
+takeOrder (adds new order to orders array)
+takeBreak (tchanges the onBreak boolean value to true)
+endShift (changes the atWork boolean value to false)
+collectTips (adds tip amount to tips attribute total)
+punchIn (changes the atWork boolean value to true (if false))
