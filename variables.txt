@@ -6,4 +6,4 @@ let num7 = 15;
 let quotient = (num7/num2);
 let songs = ["Walk the line", "Smells like teen spirit"];
 songs.shift();
-food.str.length;
+food.length;
